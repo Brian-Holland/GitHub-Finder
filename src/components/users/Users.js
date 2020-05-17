@@ -4,9 +4,13 @@ import Spinner from "../layout/Spinner";
 import PropTypes from "prop-types";
 
 const Users = ({ users, loading }) => {
+    //if users are still loading...
     if (loading) {
+        //show spinner wheel
         return <Spinner />;
+        //if not...
     } else {
+        //show list of users
         return (
             <div style={userStyle}>
                 {users.map(user => (
