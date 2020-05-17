@@ -13,9 +13,9 @@ class App extends Component {
     async componentDidMount() {
         //set loading state while we wait for api request
         this.setState({ loading: true });
-
+        //wait for api request to come back
         const res = await axios.get("https://api.github.com/users");
-
+        //use setState to change state of users and loading status
         this.setState({ users: res.data, loading: false });
     }
     render() {
