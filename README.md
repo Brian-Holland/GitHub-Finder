@@ -7,6 +7,9 @@
 ### Built Using
 
 -   React
+    -   Router
+    -   Hooks
+    -   Context API
 
 ### Features
 
