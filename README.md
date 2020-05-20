@@ -2,7 +2,7 @@
 
 ### Deployed At:
 
-github-find-app.netlify.app
+https://github-find-app.netlify.app
 
 ### Description
 
