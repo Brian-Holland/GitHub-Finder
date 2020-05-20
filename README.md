@@ -1,8 +1,12 @@
 # GitHub Finder
 
+### Deployed At:
+
+github-find-app.netlify.app
+
 ### Description
 
-[IN PROGRESS] React/MERN project using GitHub API to search and display user information.
+React project using the GitHub API to search and display user information.
 
 ### Built Using
 
